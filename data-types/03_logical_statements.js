@@ -1,5 +1,5 @@
 function isAdult(age){
-  // return age >= 18
+  return age >= 18
 }
 
 function isChild(age){
@@ -17,9 +17,9 @@ function isTeenager(age){
 }
 
 function isAbsoluteZero(temperature){
-  // return temperature === -273
+  return temperature === -273
   // return temperature == '-273'
-  return temperature === '-273'
+  // return temperature === '-273'
 }
 
 module.exports = {

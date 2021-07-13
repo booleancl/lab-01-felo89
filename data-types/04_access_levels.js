@@ -1,10 +1,10 @@
 function checkAccessLevel() {
   var value = 'Tricky '
-  // var parsedValue
+  var parsedValue
   
   function handleValue(other){
-    // var parsedValue = value + other
-    // parsedValue = value + other
+    var parsedValue = value + other
+    parsedValue = value + other
     return parsedValue
   }
   handleValue('test')

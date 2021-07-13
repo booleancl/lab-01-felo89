@@ -18,12 +18,12 @@ function rutTointeger(rutString) {
 }
 
 function latitudeToFloat(latitude){
-  //  return parseFloat(latitude)
+  return parseFloat(latitude)
 }
 
 function isNumber(num){
   // return typeof(num) === 'number'
-  // return typeof(num) === 'number' && !isNaN(num)
+  return typeof(num) === 'number' && !isNaN(num)
 }
 module.exports = {
   isNumber: isNumber,

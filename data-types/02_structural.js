@@ -11,7 +11,7 @@ function objectValues() {
     name: 'Sebastian',
     courseAssigned: 'Git fundamentals'
   }
-  // teacherOne = teacherTwo 
+  teacherOne = teacherTwo
 
   teacherTwo.name = 'Gonzalo'
   teacherTwo.courseAssigned = 'Functions Arquitecture'
@@ -26,7 +26,7 @@ function arrayValues(){
   var gradesStudentOne = [5,7,6]
   var gradesStudentTwo = [4,5,6]
 
-  // gradesStudentOne = gradesStudentTwo
+  gradesStudentOne = gradesStudentTwo
 
   gradesStudentTwo[1] = 7
 

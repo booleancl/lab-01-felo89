@@ -48,7 +48,7 @@ function numberValues() {
   var javascriptLevelSkills = 1
   var javascriptExpectedLevelSkills = 2
 
-  // javascriptLevelSkills = javascriptExpectedLevelSkills 
+  javascriptLevelSkills = javascriptExpectedLevelSkills 
 
   javascriptExpectedLevelSkills = 5
 
@@ -92,7 +92,7 @@ function stringValues() {
     + comment  
   */
 
-  /*   
+
   var academyName = 'boolean academia'
   var comment = "it's so cool!"
 
@@ -102,7 +102,6 @@ function stringValues() {
     + academyName.substring(9)
     + ' '
     + comment  
-  */
 
   return academyComment
 }
@@ -129,20 +128,15 @@ function nullValues() {
   */
   var courseModules
 
-  /*
   //  ¿En este punto que valor tiene courseModules?
   courseModules = null
-  */
 
   return courseModules
 }
 
 function undefinedValues() {
-
-  /*
   // ¿ Por qué se arroja una error "ReferenceError: studentAssigments is not defined" ?
   var studentAssigments
-  */
 
   /*
   // Si intentamos acceder a una llave no definida en un objeto
